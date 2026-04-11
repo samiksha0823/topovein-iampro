@@ -1,0 +1,23 @@
+# Dataset images — never push biometric data
+Dataset/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.env
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results
+results/**/*.png
+results/**/*.npy
+results/**/*.jpg
